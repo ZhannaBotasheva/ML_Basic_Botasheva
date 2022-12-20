@@ -1,0 +1,6 @@
+```python
+N = int(input(''))
+K = int(input(''))
+print('x=',K//N) 
+print('y=',K%N)
+```
