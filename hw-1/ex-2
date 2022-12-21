@@ -7,5 +7,7 @@ def leap_year(year):
         text_result ='YOU SHALL NOT PASS'
         print(text_result)
     return text_result    
-leap_year(2000)
+leap_year(year)
+
+assert leap_year(5) == 'YOU SHALL NOT PASS'
 ```
