@@ -1,9 +1,11 @@
 ```python
 def leap_year(year):
-    if (year % 4 == 0 or year % 400 == 0) and year % 100 != 0:
-        print('YOU SHALL PASS')
+    if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+        text_result ='YOU SHALL PASS'
+        print(text_result)
     else:
-        print('YOU SHALL NOT PASS')
-    
-leap_year(8)
+        text_result ='YOU SHALL NOT PASS'
+        print(text_result)
+    return text_result    
+leap_year(2000)
 ```
