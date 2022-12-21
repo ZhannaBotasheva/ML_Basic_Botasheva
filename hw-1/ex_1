@@ -8,5 +8,6 @@ def share_bread(N, K):
     print('y=',K%N)
     return x, y
 share_bread(N, K)
-share_bread(N=3, K=14) == (4, 2)
+
+assert share_bread(N=3, K=14) == (4, 2)
 ```
