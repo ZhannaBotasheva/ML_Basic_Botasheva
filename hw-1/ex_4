@@ -1,0 +1,18 @@
+```python
+def cal_euclidean(a, b):    
+    ## Your code here
+    return distance
+
+def cal_manhattan(a, b):    
+    ## Your code here
+    return distance
+
+def cal_cosine(a, b):    
+    ## Your code here
+    return distance
+a = np.random.randint(-10, 10, size=10)
+b = np.random.randint(-10, 10, size=10)
+print(cal_euclidean(a, b))
+print(cal_manhattan(a, b))
+print(cal_cosine(a, b))
+```
