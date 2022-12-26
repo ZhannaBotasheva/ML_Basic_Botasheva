@@ -1,0 +1,7 @@
+```python
+import numpy as np
+
+my_array = np.random.rand(100)
+print(np.max(my_array), np.min(my_array))
+print(my_array)
+```
