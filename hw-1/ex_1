@@ -1,4 +1,3 @@
-```python
 def share_bread(N, K):
     N = int(input(''))
     K = int(input(''))
@@ -10,4 +9,4 @@ def share_bread(N, K):
 share_bread(N, K)
 
 assert share_bread(N=3, K=14) == (4, 2)
-```
+
