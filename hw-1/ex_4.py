@@ -1,4 +1,3 @@
-```python
 import numpy as np
 
 def cal_euclidean(a, b):    
@@ -27,4 +26,3 @@ b = np.random.randint(-10, 10, size=10)
 print(cal_euclidean(a, b))
 print(cal_manhattan(a, b))
 print(cal_cosine(a, b))
-```
